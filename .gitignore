@@ -396,3 +396,9 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# adding python related .gitignore files
+__pycache__/
+*.pyc
+nlp_env/
+data/
