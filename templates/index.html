@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medical NLP Tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Medical Diagnosis NLP Tool</h1>
+    <form method="POST" action="/process">
+        <textarea name="notes" rows="10" cols="50" placeholder="Enter medical notes here..."></textarea>
+        <br>
+        <button type="submit">Process</button>
+    </form>
+</body>
+</html>

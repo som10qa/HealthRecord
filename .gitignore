@@ -401,4 +401,6 @@ FodyWeavers.xsd
 __pycache__/
 *.pyc
 nlp_env/
-data/.DS_Store
+data/
+__pycache__/\n*.pyc\nnlp_env/\ndata/\n
+**/.DS_Store
